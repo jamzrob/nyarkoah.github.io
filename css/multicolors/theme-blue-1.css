@@ -1,0 +1,91 @@
+/*----------------------------------Theme Colors Starts-------------------------------- */
+/**-- Color-1 Light --**/
+.theme-clr, .hvr-clr:hover, .hvr-clr:focus, a:focus, a:hover, .theme-menu > li:hover > a::after, .theme-menu > li.active > a,
+.list-items li.active a, .header-main .theme-menu .dropdown-menu > li > a:hover, .header-main  .theme-menu .dropdown-menu > li > a:focus {
+    color: #67a2e5; 
+}
+.small, .theme-clr-bg, .btn-1, .btn-round:hover, .btn-round:focus, .owl-nav div:hover, .owl-nav div:focus, .theme-menu > li > a::after,
+.header-style3 .menu-bar, .pagintn > li a:hover, .pagintn > li a:focus, .widget-wrap.tag-cloud a:hover, .widget-wrap.tag-cloud a:focus {
+    background-color: #67a2e5;
+}
+.clrbg-before:before, .clrbg-after:after, .social-icons li a:hover, .social-icons li a:focus,
+.pricing-box.active .btn-round {
+    background-color: #67a2e5;
+}
+.banner { border-bottom: 5px solid #67a2e5; }
+.form-control:focus, .themeclr-border, .social-icons li a:hover, .social-icons li a:focus, 
+.btn-round:hover, .btn-round:focus, .pricing-box.active, .pricing-box.active .btn-round {
+    border-color: #67a2e5;
+}
+
+
+/**-- Color-2 Dark --**/
+.theme-dark, .hvr-dark:hover, .hvr-dark:focus {
+    color: #5687bf; 
+}
+.theme-dark-bg, .btn-1.dark {
+    background-color: #5687bf;
+}    
+.darkclr-border, .owl-dot.active {
+    border-color: #5687bf;
+}
+.big {
+    box-shadow:0px 0px 10px #5687bf, 0px 0px 20px #5687bf, 0px 0px 30px #5687bf, 0px 0px 50px #5687bf, 0px 0px 60px #5687bf ;
+    background-color: #5687bf;
+}
+
+/**-- Preloader --**/
+@-webkit-keyframes small {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        background-color: #67a2e5;
+    }
+    10% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+        background-color: #5687bf;
+    }
+    15% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    25%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        background-color: #67a2e5;
+    }
+    100%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        background-color: #67a2e5;
+    }
+}
+
+@keyframes small {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        background-color: #67a2e5;
+    }
+    10% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+        background-color: #5687bf;
+    }
+    15% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    25%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        background-color: #67a2e5;
+    }
+    100%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        background-color: #67a2e5;
+    }
+}
+/*------------------------Theme Colors Ends------------------------ */
